@@ -1,30 +1,21 @@
 package entidad;
 
-public class Estudiante {
-    private Long id;
+public class estudiante {
+    private int id;
     private String nombre;
-    private String apellido;
     private int edad;
-    private String carrera;
 
-    // Constructor, getters y setters
-
-    public Estudiante() {
-    }
-
-    public Estudiante(Long id, String nombre, String apellido, int edad, String carrera) {
+    public estudiante(int id, String nombre, int edad) {
         this.id = id;
         this.nombre = nombre;
-        this.apellido = apellido;
         this.edad = edad;
-        this.carrera = carrera;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -36,14 +27,6 @@ public class Estudiante {
         this.nombre = nombre;
     }
 
-    public String getApellido() {
-        return apellido;
-    }
-
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
-    }
-
     public int getEdad() {
         return edad;
     }
@@ -51,12 +34,5 @@ public class Estudiante {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-
-    public String getCarrera() {
-        return carrera;
-    }
-
-    public void setCarrera(String carrera) {
-        this.carrera = carrera;
-    }
 }
+

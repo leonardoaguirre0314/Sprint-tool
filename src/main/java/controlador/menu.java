@@ -1,6 +1,14 @@
 package controlador;
 
+<<<<<<< HEAD
 import java.util.Scanner;
+=======
+@RestController
+@RequestMapping("/estudiantes")
+public class    EstudianteController {
+    @Autowired
+    private EstudianteService estudianteService;
+>>>>>>> 4a437d4924efbdd5efc1e401aa3f074c0f057d91
 
 public class Menu {
     private EstudianteService estudianteService = new EstudianteService();

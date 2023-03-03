@@ -2,7 +2,7 @@ package controlador;
 
 @RestController
 @RequestMapping("/estudiantes")
-public class EstudianteController {
+public class    EstudianteController {
     @Autowired
     private EstudianteService estudianteService;
 
